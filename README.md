@@ -4,15 +4,15 @@ This project compares Static CMOS and Transmission Gate (TG) logic styles in ter
 
 📌 Project Overview
 The goal of this project was to design a transistor-level ALU and evaluate engineering trade-offs between two implementation styles:
-•	Static CMOS – robust and reliable
-•	Transmission Gate – optimized for area and power
+•	Static CMOS - robust and reliable
+•	Transmission Gate - optimized for area and power
 The comparison includes both pre-layout and post-layout (PEX) simulations.
 
 🧠 ALU Architecture
 The ALU is composed of:
-•	Logic Unit – XOR-based operations
-•	Arithmetic Unit – Full Adders (FA)
-•	Multiplexer (MUX) – operation selection
+•	Logic Unit - XOR-based operations
+•	Arithmetic Unit - Full Adders (FA)
+•	Multiplexer (MUX) - operation selection
 The design was implemented hierarchically at the transistor level.
 
 🛠 Design Flow
